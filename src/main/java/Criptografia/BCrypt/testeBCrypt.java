@@ -15,11 +15,11 @@ public class testeBCrypt {
 
         BCrypt teste = new BCrypt();
 
-//        System.out.println(teste.hashpw("FERNANDO", teste.gensalt()));
+        // System.out.println(teste.hashpw("FERNANDO", teste.gensalt()));
         System.err.println(teste.checkpw("FERNANDO", "$2a$10$DXStWdIpO275mTKO8JmfA.d8Mk3BVhzfJkWp1.wFJZWMMBPiQPAvm"));
         System.err.println(teste.checkpw("FERNANDO", "$2a$10$nABwjCAAO9ecUYnKgksRoudIhL0.h2nY6qZTfZdanqnzs5P0JOTHK"));
 
-//        
+        //
     }
 
 }
